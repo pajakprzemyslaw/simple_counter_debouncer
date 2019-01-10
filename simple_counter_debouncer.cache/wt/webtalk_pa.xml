@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Jan 10 23:24:28 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="c5496fe8ae1c4bac824a80476bcc1057" type="ProjectID"/>
+<property name="ProjectIteration" value="73" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="12" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="6" type="JavaHandler"/>
+<property name="EditUndo" value="83" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="11" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="37" type="JavaHandler"/>
+<property name="NewProject" value="3" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="18" type="JavaHandler"/>
+<property name="OpenProject" value="11" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="ProjectSummary" value="1" type="JavaHandler"/>
+<property name="RefreshDevice" value="3" type="JavaHandler"/>
+<property name="RunBitgen" value="33" type="JavaHandler"/>
+<property name="RunImplementation" value="40" type="JavaHandler"/>
+<property name="RunSynthesis" value="46" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="7" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+<property name="SimulationClose" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="4" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="2" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="19" type="JavaHandler"/>
+<property name="ui.views.b.h.e" value="3" type="JavaHandler"/>
+<property name="ui.views.b.h.f" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 7" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, main - Behavioral (main.vhd" value="23" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 8" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, Toggle Line Comments" value="1" type="GuiResourceData"/>
+<property name="btn_cleaner.vhd, 192, 132" value="1" type="GuiResourceData"/>
+<property name="main.vhd, 1, 189" value="1" type="GuiResourceData"/>
+<property name="main.vhd, 119, 195" value="1" type="GuiResourceData"/>
+<property name="main.vhd, 141, 227, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="main.vhd, 175, 167" value="1" type="GuiResourceData"/>
+<property name="main.vhd, 315, 133" value="1" type="GuiResourceData"/>
+<property name="overwrite.vhd, 140, 167" value="1" type="GuiResourceData"/>
+<property name="overwrite.vhd, 223, 160" value="1" type="GuiResourceData"/>
+<property name="overwrite.vhd, 309, 184" value="1" type="GuiResourceData"/>
+<property name="temporary_counter.vhd, 0, 134" value="1" type="GuiResourceData"/>
+<property name="temporary_counter.vhd, 0, 173" value="1" type="GuiResourceData"/>
+<property name="temporary_counter.vhd, 2, 170" value="1" type="GuiResourceData"/>
+<property name="temporary_counter.vhd, 202, 195" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="66" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="42" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,62 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Wed Sep 19 15:47:41 2018
+| Host         : leovo running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    39 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            2 |
+| No           | No                    | Yes                    |              68 |           18 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               4 |            3 |
+| Yes          | No                    | Yes                    |              37 |           10 |
+| Yes          | Yes                   | No                     |              32 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+-----------------------------------------+-------------------------------------------+------------------+----------------+
+|      Clock Signal      |              Enable Signal              |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++------------------------+-----------------------------------------+-------------------------------------------+------------------+----------------+
+|  btn_i_reg_reg_i_2_n_0 | btn_cleaner_1/btn_i_reg0                |                                           |                1 |              1 |
+|  btn_i_reg_reg_i_2_n_0 | btn_cleaner_2/btn_i_reg0                |                                           |                1 |              1 |
+|  btn_i_reg_reg_i_2_n_0 | temporary_counter_1/led_state0          |                                           |                1 |              2 |
+|  btn_i_reg_reg_i_2_n_0 |                                         |                                           |                2 |              4 |
+|  btn_i_reg_reg_i_2_n_0 |                                         | overwrite_2/btn_o_r                       |                2 |              4 |
+|  btn_i_reg_reg_i_2_n_0 | temporary_counter_1/led_temp[3]_i_1_n_0 | overwrite_2/btn_o_r                       |                1 |              4 |
+|  btn_i_reg_reg_i_2_n_0 | overwrite_2/licznik_reg[31]             | temporary_counter_1/licznik[0]_i_1__0_n_0 |                8 |             32 |
+|  clk_IBUF_BUFG         | f_div_1_0/licznik[0]_i_1_n_0            | res_IBUF                                  |                9 |             33 |
+|  btn_i_reg_reg_i_2_n_0 |                                         | res_IBUF                                  |               16 |             64 |
++------------------------+-----------------------------------------+-------------------------------------------+------------------+----------------+
+
+
